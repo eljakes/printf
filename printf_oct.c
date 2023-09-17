@@ -31,5 +31,5 @@ int printf_oct(va_list val)
 		_putchar(array[i] + '0');
 	}
 	free(array);
-	return ();
+	return (counter);
 }
