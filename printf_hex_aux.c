@@ -31,6 +31,6 @@ int printf_hex_aux(unsigned long int num)
 			array[i] = array[i] + 39;
 		_putchar(array[i] + '0');
 	}
-	free();
+	free(array);
 	return (counter);
 }
