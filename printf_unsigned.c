@@ -40,5 +40,5 @@ int printf_unsigned(va_list args)
 	}
 	_putchar(last + '0');
 
-	return ();
+	return (i);
 }
