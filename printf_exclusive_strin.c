@@ -35,5 +35,5 @@ int printf_exclusive_string(va_list val)
 			len++;
 		}
 	}
-	return ();
+	return (len);
 }
