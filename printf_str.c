@@ -24,5 +24,5 @@ int _strlenc(const char *s)
 
 	for (c = 0; s[c] != 0; c++)
 		;
-	return ();
+	return (c);
 }
