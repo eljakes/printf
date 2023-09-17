@@ -33,5 +33,5 @@ int printf_HEX(va_list val)
 		_putchar(array[i] + '0');
 	}
 	free(array);
-	rurn (counter);
+	return (counter);
 }
